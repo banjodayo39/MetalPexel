@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "MetalPexel",
+    name: "BBMetalImage",
     platforms: [.iOS("13.0")],
     products: [
         .library(name: "BBMetalImage", targets: ["BBMetalImage"]),

@@ -23,8 +23,6 @@
 		4A4CADC7225317C20058BEB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4CADC5225317C20058BEB6 /* Main.storyboard */; };
 		4A4CADC9225317C30058BEB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4CADC8225317C30058BEB6 /* Assets.xcassets */; };
 		4A4CADCC225317C30058BEB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4CADCA225317C30058BEB6 /* LaunchScreen.storyboard */; };
-		4A4CADD4225318D20058BEB6 /* BBMetalImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4CADD3225318D20058BEB6 /* BBMetalImage.framework */; };
-		4A4CADD5225318D20058BEB6 /* BBMetalImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4CADD3225318D20058BEB6 /* BBMetalImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4A633D682281F33C00138B2A /* VideoFilterVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A633D672281F33C00138B2A /* VideoFilterVC2.swift */; };
 		4A633D6A2281F43300138B2A /* test_video_2.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4A633D692281F43300138B2A /* test_video_2.mov */; };
 		4A665CFD22721CAA00DFDF4C /* VideoFilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A665CFC22721CAA00DFDF4C /* VideoFilterVC.swift */; };
@@ -51,7 +49,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4A4CADD5225318D20058BEB6 /* BBMetalImage.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,7 +74,6 @@
 		4A4CADC8225317C30058BEB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A4CADCB225317C30058BEB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A4CADCD225317C30058BEB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A4CADD3225318D20058BEB6 /* BBMetalImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BBMetalImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A633D672281F33C00138B2A /* VideoFilterVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFilterVC2.swift; sourceTree = "<group>"; };
 		4A633D692281F43300138B2A /* test_video_2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = test_video_2.mov; sourceTree = "<group>"; };
 		4A665CFC22721CAA00DFDF4C /* VideoFilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoFilterVC.swift; sourceTree = "<group>"; };
@@ -102,7 +98,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A4CADD4225318D20058BEB6 /* BBMetalImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +107,6 @@
 		4A4CADB5225317C20058BEB6 = {
 			isa = PBXGroup;
 			children = (
-				4A4CADD3225318D20058BEB6 /* BBMetalImage.framework */,
 				4A4CADC0225317C20058BEB6 /* BBMetalImageDemo */,
 				4A4CADBF225317C20058BEB6 /* Products */,
 			);
